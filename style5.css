@@ -1,0 +1,252 @@
+/* Header of the site */
+
+.header{       
+    text-align: center;
+    height: 250px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.name-image {
+    padding-top: 3px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.image{
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+.me{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
+.links{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    padding-top: 2px;
+    margin-top: 3px;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+
+.linkedin-img,
+.email-img,
+.githublogo{
+  width: 30px;
+  height: 30px; 
+  
+}
+
+a{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    transition: all 0.15s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+/* About section of the site */
+
+.about{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.about h3{
+    padding-left: 3px;
+    margin-left: 2px;
+}
+
+.about p{
+    padding-left: 4px;
+    margin-left: 3px;
+}
+
+.about:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+
+/* Personals section of the site */
+
+.personal{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.personal h3{
+    padding-left: 4px;
+    margin-left: 3px;
+}
+
+.personal ul{
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.personal:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+
+/* Education section of the site */
+
+.education{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.education h3{
+    padding-left: 4px;
+    margin-left: 3px;
+}
+
+.education ul{
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.education:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+/* Projects Section */
+
+.project{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.project:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.project h3{
+    padding-left: 4px;
+    margin-left: 3px;
+}
+
+.project h4{
+    padding-left: 4px;
+    margin-left: 3px;
+}
+
+.project p{
+    padding-left: 4px;
+    margin-left: 3px;
+}
+
+.project a{
+    padding-left: 4px;
+    margin-left: 3px;
+}
+
+.project a button{
+    padding-left: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    background-color: rgb(25, 97, 204);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.project a button:hover{
+    opacity: 0.7;
+}
+
+.project a button:active{
+    background-color:white;
+    color:rgb(25, 97, 204)
+}
+
+/* Skills Section */
+
+.skills{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.skills h3{
+    padding-left: 4px;
+    margin-left: 3px;
+}
+
+.skills ul{
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.skills:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+/* Footer section */
+
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    height: 55px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer a{
+    color: black;
+    margin-left: 0px;
+    padding-left: 3px;
+}
+
+
